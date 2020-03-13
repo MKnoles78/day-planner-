@@ -18,7 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Assets/styles/style.css" />
+  
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,11 +29,34 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+   
+    
+    
     <div class="container">
       <!-- Timeblocks go here -->
+      <!-- build grid using columns and rows, at least 3 columns and 9 rows  -->
+      <div class="row" class="present">
+          <div class="col-lg-1">
+            <div class="hour"></div>
+          </div>
+          <div class="col-lg-10">
+            <textarea>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt asperiores facere possimus obcaecati, ab in libero atque sapiente a laboriosam assumenda alias officia expedita illum. Officia cupiditate harum laborum aliquid!</textarea>
+          </div>
+          <div class="col-lg-1">
+            .savBtn with img
+          </div>
+      </div>
+
+      <i class="fas fa-save"></i>›
+
+      
     </div>
+    
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="Assets/scripts/script.js"></script>
   </body>
 </html>
