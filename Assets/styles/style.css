@@ -58,6 +58,7 @@ textarea{
 }
 
 .saveBtn {
+  text-align: center;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -69,3 +70,21 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.col-lg-1 {
+  position: relative;
+  background-color: yellow;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 80px;
+}
+
+.col-lg-10 {
+  background-color: indianred;
+  border: 1px solid grey;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 80px;
+}
+
+
