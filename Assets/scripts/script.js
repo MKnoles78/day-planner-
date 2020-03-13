@@ -45,6 +45,9 @@ currentDayEl.innerHTML = moment().format('dddd, MMM Do');
 // ********************************SAVE COLUMN******************************* 
 
 // safe lock and blue tabe on the saveBtn feature, slight overlap of columns on inside boders
+$(".saveBtn").click(function() {
+    alert( "you clicked me" );
+  });
 // can save information by clicking save button
 // should have image from fon awesome 
 // on click moment should occur when button is clicked
