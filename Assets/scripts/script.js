@@ -10,8 +10,9 @@ var descriptionEl = document.querySelector(".description");
 var timeBlockEl = document.getElementById("time-block");
 var hourEl = document.querySelector(".hour");
 var savBtnEl = document.querySelector(".saveBtn");
-var saveIconEl = 
-
+var saveIconEl = document.querySelector(".fa-save");
+var outsideColumnEl = document.querySelector(".col-lg-1");
+var insideColumnEl = document.querySelector("col-lg-10")
 
 // *******************************COMPONENTS******************************* 
 
@@ -28,7 +29,7 @@ currentDayEl.innerHTML = moment().format('dddd, MMM Do');
 
 //time on the right column from 9-5
 // shouild be able to just pend time to the rows 
-hourEl.innerHTML = "9 A.M.";
+
 
 // ******************************MIDDLE COLUMN****************************** 
 
@@ -42,7 +43,6 @@ hourEl.innerHTML = "9 A.M.";
 
 
 // ********************************SAVE COLUMN******************************* 
-
 
 // safe lock and blue tabe on the saveBtn feature, slight overlap of columns on inside boders
 // can save information by clicking save button
