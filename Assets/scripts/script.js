@@ -1,16 +1,16 @@
-console.log("hello world");
 
-var currentDayEl = document.getElementById(currentDay);
+var currentDayEl = document.getElementById("currentDay");
+var leadEl = document.querySelector(".lead")
 var rowEl = document.querySelector(".row");
 var presentEl = document.querySelector(".present");
 var pastEl = document.querySelector(".past");
 var futureEl = document.querySelector("future");
 var jumbotronEl = document.querySelector(".jumbotron");
 var descriptionEl = document.querySelector(".description");
-var timeBlockEl = document.querySelector(".time.block");
+var timeBlockEl = document.getElementById("time-block");
 var hourEl = document.querySelector(".hour");
 var savBtnEl = document.querySelector(".saveBtn");
-
+var saveIconEl = 
 
 
 // *******************************COMPONENTS******************************* 
@@ -19,14 +19,16 @@ var savBtnEl = document.querySelector(".saveBtn");
 
 // jumbotron displays current date format (day, month, date)
 // displays day of the week 
-moment().format('dddd');
+// moment().format('dddd');
 // displays mon, xx, xxxx 
-moment().format('ll');
+// moment().format('ll');
+currentDayEl.innerHTML = moment().format('dddd, MMM Do');
 
 // *******************************TIME COLUMN******************************* 
 
 //time on the right column from 9-5
 // shouild be able to just pend time to the rows 
+hourEl.innerHTML = "9 A.M.";
 
 // ******************************MIDDLE COLUMN****************************** 
 
@@ -40,6 +42,8 @@ moment().format('ll');
 
 
 // ********************************SAVE COLUMN******************************* 
+
+
 // safe lock and blue tabe on the saveBtn feature, slight overlap of columns on inside boders
 // can save information by clicking save button
 // should have image from fon awesome 
