@@ -19,7 +19,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="Assets/styles/style.css" />
-  
     <title>Work Day Scheduler</title>
   </head>
 
@@ -27,33 +26,60 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead"></p><p id="currentTime"></p>
     </header>
-   
-    
-    
+
     <div class="container">
       <!-- Timeblocks go here -->
-      <!-- build grid using columns and rows, at least 3 columns and 9 rows  -->
-      <div class="row" class="present">
-          <div class="col-lg-1">
-            <div class="hour"></div>
-          </div>
-          <div class="col-lg-10">
-            <textarea>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt asperiores facere possimus obcaecati, ab in libero atque sapiente a laboriosam assumenda alias officia expedita illum. Officia cupiditate harum laborum aliquid!</textarea>
-          </div>
-          <div class="col-lg-1">
-            .savBtn with img
-          </div>
+      <div class="row">
+        <div class="col-lg-1 hour-1">9 AM</div>
+        <textarea class ="col-lg-10 description-1 textarea-1"></textarea>
+        <button class="col-lg-1 saveBtn"><i class="fas fa-save"></i></button>
       </div>
-
-      <i class="fas fa-save"></i>›
-
+      <div class="row">
+        <div class="col-lg-1 hour-2">10 AM</div>
+        <textarea class="col-lg-10 description-2 textarea-2"></textarea>
+        <button class="col-lg-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour-3">11 AM</div>
+        <textarea class="col-lg-10 description-3 textarea-3"></textarea>
+        <button class="col-lg-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour-4">12 PM</div>
+        <textarea class="col-lg-10 description-4 textarea-4"></textarea>
+        <button class="col-lg-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour-5">1 PM</div>
+        <textarea class="col-lg-10 description-5 textarea-5"></textarea>
+        <button class="col-lg-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour-6">2 PM</div>
+        <textarea class="col-lg-10 description-6 textarea-6"></textarea>
+        <button class="col-lg-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour-7">3 PM</div>
+        <textarea class="col-lg-10 description-7 textarea-7"></textarea>
+        <button class="col-lg-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour-8">4 PM</div>
+        <textarea class="col-lg-10 description-8 textarea-8"></textarea>
+        <button class="col-lg-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 hour-9">5 PM</div>
+        <textarea class="col-lg-10 description-9 textarea-9"></textarea>
+        <button class="col-lg-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
       
-    </div>
     
 
-
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
