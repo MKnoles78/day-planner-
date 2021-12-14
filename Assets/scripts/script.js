@@ -41,7 +41,6 @@ var hourFiveEl = document.querySelector(".hour-9");
 
 
 
-
 // function myFunction() {
 //     var d = new Hour();
 //     d.setHours(9, 00, 00);
